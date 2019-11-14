@@ -2,6 +2,7 @@
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
+   font-family: 'Fahkwang', sans-serif;
 }
 
 header {
@@ -18,21 +19,30 @@ main {
     background-color: #3A3D6E;
 }
 
-.Invite-list {
+.invite-list {
   background-color: white;
   justify-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
-  height: 500px;
+  min-height: 300px;
   padding: 1%;
 }
 
-.Invited-hedgehog {
+.invited-hedgehog {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid 2px #3A3D6E;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.single-invite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 2px #3A3D6E;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1%;
 }
 
 h2 {
@@ -44,7 +54,6 @@ h2 {
 
 p {
   display: inline;
-
 }
 
 .name {
@@ -52,34 +61,34 @@ p {
   margin-left: 2%;
 }
 
-.Hoglets {
+.hoglets {
   grid-column: 2;
 }
 
-.Allergies {
+.allergies {
   grid-column: 3;
 }
 
-.Univite {
+.uninvite {
   grid-column: 4;
 }
 
 .form-section {
   background-color: #656794;
   color: white;
+  display: flex;
+  justify-content: space-around;
   margin-left: 20%;
   margin-right: 20%;
-}
-
-form {
-
+  padding-top: 1%;
 }
 
 input {
   display: block;
   margin: 2%;
   height: 4em;
-  width: 60em;
+  width: 45em;
+  margin-bottom: 3%;
 }
 
 button {
@@ -88,14 +97,23 @@ button {
   color: white;
   height: 4em;
   margin-left: 2%;
-  width: 60em;
+  width: 45em;
 }
 
-/* .party-pic {
+.uninvite {
+  background-color: #D2D5E8;
+  grid-column: 4;
+  height: 26px;
+  width: 65px;
+  color: #3b4071;
+}
 
-} */
+.hidden {
+  visibility: hidden;
+}
 
 img {
-  height: 300px;
-  display: inline;
+  height: 245px;
+  margin: 10%;
+  padding-right: 15%;
 }
