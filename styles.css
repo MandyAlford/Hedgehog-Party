@@ -21,7 +21,6 @@ main {
 
 .invite-list {
   background-color: white;
-  justify-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
   min-height: 300px;
@@ -30,10 +29,10 @@ main {
 
 .invited-hedgehog {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   border-bottom: solid 2px #3A3D6E;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
 .single-invite {
@@ -57,20 +56,20 @@ p {
 }
 
 .name {
-  grid-column: 1;
+  /* grid-column: 1; */
   margin-left: 2%;
 }
 
 .hoglets {
-  grid-column: 2;
+  /* grid-column: 2; */
 }
 
 .allergies {
-  grid-column: 3;
+  /* grid-column: 3; */
 }
 
 .uninvite {
-  grid-column: 4;
+  /* grid-column: 4; */
 }
 
 .form-section {
